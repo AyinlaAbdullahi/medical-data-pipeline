@@ -1,0 +1,14 @@
+medical_dbt:
+  outputs:
+    dev:
+      account: ea15846.eu-central-2.aws
+      database: MEDICAL_DB
+      password: VqJNH2QNTe7zVmP
+      role: ACCOUNTADMIN
+      schema: analytics
+      threads: 1
+      type: snowflake
+      user: hexa01
+      warehouse: medical_wh
+  target: dev
+

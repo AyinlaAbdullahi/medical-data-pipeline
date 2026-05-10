@@ -1,0 +1,34 @@
+[0m10:21:53.029620 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ccb1950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10da148d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10da8bf50>]}
+
+
+============================== 10:21:53.032247 | ca2e4908-625c-45d3-b156-665baafcbb12 ==============================
+[0m10:21:53.032247 [info ] [MainThread]: Running with dbt=1.11.8
+[0m10:21:53.032528 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'no_print': 'None', 'partial_parse': 'True', 'log_cache_events': 'False', 'static_parser': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'log_path': 'logs', 'indirect_selection': 'eager', 'empty': 'None', 'use_experimental_parser': 'False', 'log_format': 'default', 'introspect': 'True', 'quiet': 'False', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/Users/Apple/.dbt', 'write_json': 'True', 'printer_width': '80', 'version_check': 'True', 'fail_fast': 'False', 'invocation_command': 'dbt init medical_dbt', 'debug': 'False', 'send_anonymous_usage_stats': 'True'}
+[0m10:21:53.041188 [info ] [MainThread]: Creating dbt configuration folder at /Users/Apple/.dbt
+[0m10:21:53.042174 [debug] [MainThread]: Starter project path: /Users/Apple/.pyenv/versions/3.11.9/lib/python3.11/site-packages/dbt/include/starter_project
+[0m10:21:53.046104 [info ] [MainThread]: 
+Your new dbt project "medical_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:21:53.046307 [info ] [MainThread]: Setting up your profile.
+[0m10:22:40.337701 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m10:22:40.338226 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m10:22:40.338392 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m10:24:20.624892 [info ] [MainThread]: Profile medical_dbt written to /Users/Apple/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:24:21.387470 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 148.39801, "process_in_blocks": "0", "process_kernel_time": 0.305235, "process_mem_max_rss": "197558272", "process_out_blocks": "0", "process_user_time": 0.878117}
+[0m10:24:21.393280 [debug] [MainThread]: Command `dbt init` succeeded at 10:24:21.392823 after 148.40 seconds
+[0m10:24:21.394675 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10daa5310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10daa5390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10975c450>]}
+[0m10:24:21.395353 [debug] [MainThread]: Flushing usage events
+[0m10:24:22.570102 [debug] [MainThread]: An error was encountered while trying to flush usage events

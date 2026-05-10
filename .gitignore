@@ -1,0 +1,37 @@
+cat > .gitignore << 'EOF'
+# Environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Data files
+data/
+
+# Airflow
+airflow/logs/
+airflow/config/
+airflow/plugins/
+
+# dbt
+medical_dbt/target/
+medical_dbt/dbt_packages/
+medical_dbt/logs/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+EOF

@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: hiv_unified
+    columns:
+      - name: COUNTRY
+        tests:
+          - not_null
+      - name: YEAR
+        tests:
+          - not_null
+
+  - name: health_summary
+    columns:
+      - name: COUNTRY
+        tests:
+          - not_null
+      - name: YEAR
+        tests:
+          - not_null
+
+  - name: drug_reactions
+    columns:
+      - name: DRUG
+        tests:
+          - not_null
+      - name: REACTION
+        tests:
+          - not_null

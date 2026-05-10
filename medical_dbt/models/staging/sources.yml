@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: staging
+    database: MEDICAL_DB
+    schema: STAGING
+    tables:
+      - name: CLEAN_WHO_HIV_TOTAL
+      - name: CLEAN_WHO_HIV_PREVALENCE
+      - name: CLEAN_WHO_HIV_NEW_INFECTIONS
+      - name: CLEAN_WHO_LIFE_EXPECTANCY
+      - name: CLEAN_OPENFDA
